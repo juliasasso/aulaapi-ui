@@ -1,0 +1,39 @@
+body{
+    margin:0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif, 'Arial Narrow', Arial, sans-serif, Haettenschweiler, 'Arial Narrow Bold', sans-serif, 'Times New Roman', Times, serif, 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', 
+    Arial, sans-serif;
+    color: rgb(30, 221, 255);
+}
+
+label{
+    font-weight: bold;
+}
+
+@media (min-width: 1200px){
+    .container {
+        width: 970px;
+        margin: 0 auto;
+    }
+
+    .col-id-header {
+        width: 80px;
+    }
+    
+
+    .col-id {     
+        width: 80px;
+        text-align: right;
+    }
+
+    .col-acoes-header {
+        width: 80px;
+    }
+    
+
+    .col-acoes {     
+        width: 80px;
+        text-align: center;
+    }
+}
+
+

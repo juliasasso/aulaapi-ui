@@ -1,0 +1,48 @@
+<div class="container">
+    <div class="ui-g"> 
+        <form autocomplete="off">
+
+        <div class="ui-g-12">
+            <h1>Categorias</h1>
+        </div>
+
+        <div class="ui-g-12 ui-fluid">
+            <label>Nome da Categoria </label>
+            <input pInputText type="text">
+        </div>
+
+            <div class="ui-g-12">
+                <button pButton type="submit" label="Pesquisar"></button>
+            </div>
+
+        </form>
+    </div>
+
+<div class="ui-g">
+    <div class="ui-g-12">
+
+            <p-table [value]="categorias">
+                    <ng-template pTemplate="header">
+                        <tr>
+                            <th class="col-id-header">#</th>
+                            <th> Nome da Categoria</th>
+                            <th class="col-acoes-header"></th>
+                            <th class="col-acoes-header"></th>
+                        </tr>
+                    </ng-template>
+                    <ng-template pTemplate="body" let-cat>
+                        <tr>
+                            <td class="col-id">{{cat.id}}</td>
+                            <td>{{cat.nome}}</td>
+                            <td class="col-acoes"> 
+                                <button pButton icon="pi pi-pencil"></button>
+                            </td>
+                            <td class="col-acoes">
+                                <button pButton icon="pi pi-trash"></button>
+                            </td>
+                        </tr>
+                    </ng-template>
+                </p-table>
+    </div>
+</div>
+</div>
