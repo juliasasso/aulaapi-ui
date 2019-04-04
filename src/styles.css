@@ -26,12 +26,12 @@ label{
     }
 
     .col-acoes-header {
-        width: 80px;
+        width: 120px;
     }
     
 
-    .col-acoes {     
-        width: 80px;
+    .col-acoes {
+        width: 120px;
         text-align: center;
     }
 }
