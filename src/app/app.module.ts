@@ -6,6 +6,7 @@ import { AppComponent } from './app.component';
 import { CategoriasModule } from './categorias/categorias.module';
 import { CoreModule } from './core/core.module';
 import { CategoriaService } from './categorias/categoria.service';
+import { HttpClientModule } from '@angular/common/http';
 
 
 
@@ -16,6 +17,7 @@ import { CategoriaService } from './categorias/categoria.service';
   imports: [
     BrowserModule,
     AppRoutingModule,
+    HttpClientModule,
     CoreModule,
     CategoriasModule
   ],
